@@ -83,7 +83,7 @@
 &kp Q             &kp W         &kp E         &kp R           &kp T                                                         &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F           &kp G        &kp ESC                   &kp DELETE             &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V           &kp B        &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE  &kp BACKSPACE             &kp TAB                &lt 1 ENTER                             &kp SQT
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE  &kp BACKSPACE             &kp TAB                &lt 1 ENTER                             &lt 3 SQT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
