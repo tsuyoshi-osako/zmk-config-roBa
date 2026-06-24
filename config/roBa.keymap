@@ -83,13 +83,13 @@
 &kp Q             &kp W         &kp E         &kp R           &kp T                                                         &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F           &kp G        &kp ESC                   &kp DELETE             &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V           &kp B        &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE  &lt 3 BACKSPACE           &kp TAB                &lt 1 ENTER                             &lt 3 SQT
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE  &kp BACKSPACE             &kp TAB                &lt 1 ENTER                             &lt 3 SQT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
-        FUNCTION {
+        NUM_ARROW {
             bindings = <
 &trans         &trans    &trans        &trans     &trans                      &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
 &kp LA(GRAVE)  &kp LEFT  &kp UP_ARROW  &kp RIGHT  &trans  &trans      &trans  &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
@@ -98,12 +98,12 @@
             >;
         };
 
-        NUM {
+        FUNCTION {
             bindings = <
-&kp F1               &kp F2       &kp F3    &kp F4           &kp F5                            &kp F6     &kp F7         &kp F8        &kp F9                &kp F10
-&kp LA(EXCLAMATION)  &kp AT_SIGN  &kp HASH  &kp KP_NUMBER_6  &kp ASTERISK  &trans      &trans  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp PRINTSCREEN      &trans       &trans    &trans           &trans        &trans      &trans  &trans     &trans         &trans        &trans                &trans
-&trans               &trans       &trans    &trans           &trans        &trans      &trans  &trans                                                        &trans
+&kp F1           &kp F2       &kp F3    &kp F4      &kp F5                            &kp F6     &kp F7         &kp F8        &kp F9                &kp F10
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp ASTERISK  &trans      &trans  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp PRINTSCREEN  &trans       &trans    &trans      &trans        &trans      &trans  &trans     &trans         &trans        &trans                &trans
+&trans           &trans       &trans    &trans      &trans        &trans      &trans  &trans                                                        &trans
             >;
         };
 
